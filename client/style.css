@@ -1,0 +1,40 @@
+.error{
+    color:red
+}
+.profile{
+    margin-left:850px;
+}
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width as needed */
+    margin-bottom: 20px;
+  }
+  .news {
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* Make the container position relative */
+    bottom: 20px; /* Set the desired distance from the bottom */
+  }
+  .page-container{
+    margin:20px;
+  }
+  .news-button {
+    width: 28; /* Adjust the width as needed */
+  }
+  
+  .read-more-button {
+    margin-right: 4%; /* Adjust the margin as needed */
+  }
+
+.save-news-button {
+    margin-left: 4%
+}
+
+.items:hover {
+color:white
+}
