@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url='http://localhost:5000'
+const url='https://mern-news-hub.onrender.com'
 
 export const register = (input)=>axios.post(`${url}/register`,input)
 .then((res)=>{
