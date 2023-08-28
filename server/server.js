@@ -12,7 +12,7 @@ app.use(express.urlencoded({extended:true}))
 app.use(cors())
 app.use(express.json())
 const router  = require('./router')
-app.use('/',router)
+app.use(router)
 
 
 mongoose.connect(process.env.mongourl,{
