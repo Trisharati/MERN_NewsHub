@@ -28,7 +28,7 @@ function App() {
     <>
     <ToastContainer/>
      <Router>
-      <Routes key={window.location.pathname}>
+      <Routes>
         {showFirstComponent && 
         <Route path='/' element={<First onSignUp={handleSignUp}/>}/>}
         <Route path='/first' element={<First/>}/>
