@@ -30,7 +30,7 @@ function App() {
      <Router>
       <Routes>
         {showFirstComponent && 
-        <Route path='/' element={<First onSignUp={handleSignUp}/>}/>}
+        <Route path='/first' element={<First onSignUp={handleSignUp}/>}/>}
         <Route path='/first' element={<First/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path='/login' element={<Login/>}/>
