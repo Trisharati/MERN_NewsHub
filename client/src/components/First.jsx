@@ -16,8 +16,8 @@ localStorage.clear()
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item"><Link className="nav-link" to="/register" 
-                        onClick={props.onSignUp}><b>Register</b></a></li>
-                        <li className="nav-item"><Link className="nav-link" to="/login"><b>Login</b></a></li>
+                        onClick={props.onSignUp}><b>Register</b></Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/login"><b>Login</b></Link></li>
                     </ul>
                 </div>
             </div>
