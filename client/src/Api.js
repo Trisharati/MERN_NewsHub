@@ -1,17 +1,19 @@
 import axios from 'axios'
 
 const url='https://mern-news-hub.onrender.com'
+// const url = 'http://localhost:5000'
 
 export const register = (input)=>axios.post(`${url}/register`,input)
 .then((res)=>{
-    return res.data
+    console.log('re',res);
+    return res 
 }).catch((err)=>{
     return err.response.data
     
 })
 export const login = (input)=>axios.post(`${url}/login`,input)
 .then((res)=>{
-    return res.data.userInfo
+    return res
 }).catch((err)=>{
     console.log('error from api',err)
     return err.response.data

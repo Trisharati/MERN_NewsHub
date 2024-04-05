@@ -7,7 +7,7 @@ const { default: mongoose } = require('mongoose')
 
 
 const register = async(req,res)=>{
-    
+    console.log('req body',req.body);
     let token=jwt.sign(req.body,'news')
     const userObj={
         ...req.body,
